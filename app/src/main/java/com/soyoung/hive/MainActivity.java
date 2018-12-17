@@ -11,16 +11,5 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 //        https://blog.csdn.net/guiying712/article/details/55213884
 
-        // add master 1
-//        setContentView(R.layout.activity_main); test branch
-
-
-        // test branch
-
-        // dev 分支提交
-
-        // 删除本地分支
-
-        // 删除本地和远程分支提交
     }
 }
