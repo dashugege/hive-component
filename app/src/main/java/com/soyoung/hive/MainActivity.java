@@ -11,6 +11,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 //        https://blog.csdn.net/guiying712/article/details/55213884
 
+//        setContentView(R.layout.activity_main); test branch
 
 
 
