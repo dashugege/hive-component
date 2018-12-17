@@ -12,8 +12,10 @@ public class MainActivity extends Activity {
 //        https://blog.csdn.net/guiying712/article/details/55213884
 
         // add master 1
+//        setContentView(R.layout.activity_main); test branch
 
 
+        // test branch
 
 
 
