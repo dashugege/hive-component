@@ -27,7 +27,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.android.support:appcompat-v7:${versions.supportLibraryVersion}"
-//    implementation "com.android.support:support-v4:${versions.supportLibraryVersion}"
+    implementation "com.android.support:support-v4:${versions.supportLibraryVersion}"
     implementation "com.android.support.constraint:constraint-layout:${versions.constraintLayoutVersion}"
 
     implementation 'com.alibaba:arouter-api:1.4.1'
