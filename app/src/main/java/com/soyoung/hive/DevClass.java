@@ -6,4 +6,6 @@ package com.soyoung.hive;
  */
 
 public class DevClass {
+
+   // 1
 }
