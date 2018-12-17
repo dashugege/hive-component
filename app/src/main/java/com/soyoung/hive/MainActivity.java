@@ -21,5 +21,6 @@ public class MainActivity extends Activity {
 
         // 删除本地分支
 
+        // 删除本地和远程分支提交
     }
 }
