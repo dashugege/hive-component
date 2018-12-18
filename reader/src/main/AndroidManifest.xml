@@ -2,12 +2,12 @@
     package="hive.soyoung.com.reader" >
 
 
-    <application>
+    <application android:name="com.soyoung.hive.common.CApplication">
         <activity android:name=".ReaderActivity">
             <intent-filter>
                 <data
-                    android:host="m.aliyun.com"
-                    android:scheme="arouter"/>
+                    android:host="m.aliyun.coms"
+                    android:scheme="router"/>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>

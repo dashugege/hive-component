@@ -7,7 +7,9 @@ package debug;
 
 import android.app.Application;
 
-public class ReaderApplication extends Application {
+import com.soyoung.hive.common.CApplication;
+
+public class ReaderApplication extends CApplication {
 
     @Override
     public void onCreate() {

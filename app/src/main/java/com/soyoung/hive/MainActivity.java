@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ARouter.getInstance().build("/app/testactivity").navigation();
+                ARouter.getInstance().build("/reader/readeractivity").navigation();
             }
         });
 
