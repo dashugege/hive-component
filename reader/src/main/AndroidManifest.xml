@@ -2,7 +2,7 @@
     package="hive.soyoung.com.reader" >
 
 
-    <application android:name="com.soyoung.hive.common.CApplication">
+    <application>
         <activity android:name=".ReaderActivity">
             <intent-filter>
                 <data
