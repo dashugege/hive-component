@@ -8,7 +8,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.android.tools.build:gradle:3.2.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -17,14 +17,13 @@ buildscript {
     ext.versions = [
             'minSdk'        : 15,
             'targetSdk'     : 25,
-            'compileSdk'    : 28,
+            'compileSdk'    : 26,
             'versionCode'   : 1,
             'versionName'   :'1.0',
             'kotlin'        : '1.2.30',
-            'supportLibraryVersion': '28.0.0',
+            'supportLibraryVersion': '25.2.0',
             'constraintLayoutVersion': '1.1.3',
             'androidPlugin' : '2.3.1'
-//            'androidTools'  : '27.0.3',
     ]
 
 
