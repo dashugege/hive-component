@@ -1,1 +1,1 @@
-include ':app', ':share', ':reader', ':common', ':common', ':buildsrc'
+include ':app', ':share', ':reader', ':common', ':common', ':buildsrc', ':mplugin'
