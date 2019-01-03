@@ -7,7 +7,8 @@ import org.gradle.api.Project
 /**
  * 自定义一个本地引用插件
  * apply plugin: com.soyoung.buildsrc.AssembliesPlugin
- *https://blog.csdn.net/feiyu1947/article/details/84931252
+ *  https://blog.csdn.net/feiyu1947/article/details/84931252
+ * https://github.com/Leaking/Hunter/blob/master/README_ch.md
  */
 
 class AssembliesPlugin implements Plugin<Project> {
@@ -20,6 +21,7 @@ class AssembliesPlugin implements Plugin<Project> {
         println("=====================================")
         println("apply project : " + project.getName()+" start ")
         println("=====================================")
+
 
 
         

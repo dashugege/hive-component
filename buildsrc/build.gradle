@@ -1,11 +1,16 @@
 apply plugin: 'groovy'
 
-dependencies {
-    compile gradleApi()//gradle sdk
-    compile localGroovy()//groovy sdk
-//    implementation 'com.android.tools.build:gradle-api:2.5.0'
-}
+// 自定义一个本地引用插件
+
 repositories {
     jcenter()
-    mavenCentral()
+}
+
+
+
+dependencies {
+    //gradle sdk
+    compile gradleApi()
+    //groovy sdk
+    compile localGroovy()
 }
