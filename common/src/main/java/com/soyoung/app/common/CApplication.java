@@ -1,4 +1,4 @@
-package com.soyoung.hive.common;
+package com.soyoung.app.common;
 /*
  * create by muanxi
  * 2018/12/18

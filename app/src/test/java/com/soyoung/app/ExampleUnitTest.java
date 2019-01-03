@@ -1,4 +1,4 @@
-package com.soyoung.hive;
+package com.soyoung.app;
 
 import org.junit.Test;
 

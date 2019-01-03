@@ -5,9 +5,7 @@ package debug;
  *
  */
 
-import android.app.Application;
-
-import com.soyoung.hive.common.CApplication;
+import com.soyoung.app.common.CApplication;
 
 public class ReaderApplication extends CApplication {
 

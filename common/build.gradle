@@ -32,5 +32,6 @@ dependencies {
 
     api 'com.alibaba:arouter-api:1.4.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'
+    implementation 'com.android.tools.build:gradle-api:3.2.1'
 
 }

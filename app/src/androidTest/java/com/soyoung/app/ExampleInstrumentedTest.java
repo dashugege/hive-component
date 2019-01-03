@@ -1,4 +1,4 @@
-package com.soyoung.hive.common;
+package com.soyoung.app;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.soyoung.hive.common.test", appContext.getPackageName());
+        assertEquals("com.soyoung.hive", appContext.getPackageName());
     }
 }

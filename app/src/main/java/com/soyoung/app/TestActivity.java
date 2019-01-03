@@ -1,4 +1,4 @@
-package com.soyoung.hive;
+package com.soyoung.app;
 
 import android.app.Activity;
 import android.os.Bundle;
