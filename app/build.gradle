@@ -29,7 +29,7 @@ android {
 
 }
 
-
+//自定义删除日志插件
 delLogExtension.sourceDir = '/src'
 
 

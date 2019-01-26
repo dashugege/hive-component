@@ -17,7 +17,7 @@ class DelLogPlugin implements Plugin<Project>{
         project.extensions.create("delLogExtension",DelLogExtension.class)
 
 //      afterEvaluate  gradle构建完后自动执行
-        project.afterEvaluate {
+            project.afterEvaluate {
 
             project.logger.error("delLogExtension "+ project.delLogExtension.sourceDir)
             def rootDir = project.projectDir.toString().plus(project.delLogExtension.sourceDir);
