@@ -5,13 +5,6 @@ package com.soyoung.app;
  * @date 2019/1/26
  **/
 public class FeatureClass {
-  //1
-  //2
 
-    //3
 
-  //4
-  //5
-
-    //6
 }
