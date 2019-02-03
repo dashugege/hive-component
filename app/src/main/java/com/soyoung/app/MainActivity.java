@@ -1,6 +1,7 @@
 package com.soyoung.app;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -20,7 +21,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ARouter.getInstance().build("/reader/readeractivity").withString("name","muhanxi").navigation();
+                startActivity(new Intent(MainActivity.this,Main2Activity.class));
             }
         });
 

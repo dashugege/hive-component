@@ -26,7 +26,6 @@ android {
 //    resourcePrefix 'my_prefix_'
 
 
-
 }
 
 //自定义删除日志插件
@@ -34,11 +33,11 @@ delLogExtension.sourceDir = '/src'
 
 
 dependencies {
+    implementation "com.android.support:design:26.1.0"
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(':common')
     implementation "com.android.support.constraint:constraint-layout:${versions.constraintLayoutVersion}"
     implementation project(':reader')
     implementation project(':share')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }
-
-
